@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #575757;
+    margin: 0;
+}
+section{
+    margin-top: 60px;
+}
+.clear-fix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.info{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: justify;
+}
+.info h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.btn{
+    background: linear-gradient(to right, tomato, rgb(230, 35, 35));
+    border-radius: 20px;
+    padding: 12px 20px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+.btn:hover{
+    background-image: linear-gradient(to Right, rgb(133, 229, 133), rgb(9, 228, 9));
+}
+.half-width img{
+    width: 500px;
+    height: 550px;
+}
+/* about section  */
+.back-img{
+    background: url('images/shapes/02.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img-about img{
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+}
+.recipies{
+    width: 100%;
+    text-align: center;
+}
+.recipies p{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.items{width: 100%;}
+.item{
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    box-shadow: 10px 10px 40px #e4dcdc;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.item h3, p{
+    text-align: justify;
+    padding: 0px 10px;
+}
+.item img{
+    width: 320px;
+    height: 280px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.subscribe{
+    width: 80%;
+    margin: 60px auto;
+    box-shadow: 10px 10px 40px #e4dcdc;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+.subscribe h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.subscribe p{
+    text-align: center;
+}
+.count{
+    float: left;
+    width: 28%;
+    margin-left: 5%;
+}
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+}
+footer p{
+    text-align: center;
+    margin: 0 auto;
+}
